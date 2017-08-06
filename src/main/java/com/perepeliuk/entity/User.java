@@ -18,4 +18,13 @@ public class User {
     private String nickname;
     private String email;
 
+    public User() {
+    }
+
+    public User(String name, Integer age, String nickname, String email) {
+        this.name = name;
+        this.age = age;
+        this.nickname = nickname;
+        this.email = email;
+    }
 }
